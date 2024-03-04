@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>&amp;blog.  on kenjitheman</title>
+    <link>//localhost:45425/blog/</link>
+    <description>Recent content in &amp;blog.  on kenjitheman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2024</copyright>
+    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:45425/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>//localhost:45425/blog/introduction/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:45425/blog/introduction/</guid>
+      <description>Hi there. This is the introduction to my blog. Here I&amp;rsquo;ll be sharing my thoughts, ideas, and experiences.
+This is a first post, so I&amp;rsquo;ll keep it short. I hope u enjoy reading it on this beautiful website with a nice pure dark theme, without any ads or tracking, without fucking javascript fucusing on nice UX &amp;amp;&amp;amp; performance and with a nice typography.
+And also, of course, my blog is open source.</description>
+      <content:encoded><![CDATA[<p>Hi there. This is the introduction to my blog. Here I&rsquo;ll be sharing my thoughts, ideas, and experiences.</p>
+<p>This is a first post, so I&rsquo;ll keep it short. I hope u enjoy reading it on this beautiful website with a nice pure dark theme, without any ads or tracking, without fucking javascript fucusing on nice UX &amp;&amp; performance and with a nice typography.</p>
+<p>And also, of course, my blog is open source. You can find the source code on <a href="github.com/kenjitheman/kenjitheman.dev">GitHub</a>.</p>
+<p>I&rsquo;m looking forward to sharing more with you soon. Stay tuned!</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

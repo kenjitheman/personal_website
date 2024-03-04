@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="//localhost:1313/images/favicon.ico" />
+<title>Code Conventions | kenjitheman</title>
+<meta name="title" content="Code Conventions" />
+<meta name="description" content="Here is explanation of our code conventions." />
+<meta name="keywords" content="text,docs,help,guide," />
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Code Conventions" />
+<meta property="og:description" content="Here is explanation of our code conventions." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:1313/docs/code-conventions/" />
+
+<meta property="og:image" content="//localhost:1313/images/social_card_bg_hu0f7c7fe460ec4b5e9751ccb8d9c9aa0f_651110_a4ae6f94d0fd2be91749b3f7505b04ba.webp"/><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2023-12-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-12-27T00:00:00+00:00" /><meta property="og:site_name" content="kenjitheman" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="//localhost:1313/images/social_card_bg_hu0f7c7fe460ec4b5e9751ccb8d9c9aa0f_651110_a4ae6f94d0fd2be91749b3f7505b04ba.webp"/>
+
+<meta name="twitter:title" content="Code Conventions"/>
+<meta name="twitter:description" content="Here is explanation of our code conventions."/>
+
+
+<meta itemprop="name" content="Code Conventions">
+<meta itemprop="description" content="Here is explanation of our code conventions."><meta itemprop="datePublished" content="2023-12-27T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-12-27T00:00:00+00:00" />
+<meta itemprop="wordCount" content="575">
+
+<meta itemprop="image" content="//localhost:1313/images/social_card_bg_hu0f7c7fe460ec4b5e9751ccb8d9c9aa0f_651110_a4ae6f94d0fd2be91749b3f7505b04ba.webp"/>
+
+
+<meta itemprop="keywords" content="text,docs,help,guide," />
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/style.min.css" rel="stylesheet">
+
+  
+
+  
+
+  
+</head>
+
+<body>
+  <header><a class="skip-link" href="#main-content">Skip to main content</a>
+
+<a href="//localhost:1313/" class="title"><h1>kenjitheman</h1></a>
+<nav>
+  <a href="/">Home</a>
+
+  <a href="/blog/">Blog</a>
+
+  <a href="/docs/">Docs</a>
+
+  <a href="https://twitter.com/kenjith3man">twitter</a>
+
+  <a href="https://github.com/kenjitheman">GitHub</a>
+
+<a href='//localhost:1313/index.xml'>RSS</a>
+
+
+
+
+
+
+
+</nav>
+</header>
+  <main id="main-content">
+
+<h1>Code Conventions</h1>
+
+<content>
+  <!-- raw HTML omitted -->
+<ul>
+<li><a href="/docs/code-conventions/#priority-values">Priority values</a></li>
+<li><a href="/docs/code-conventions/#estimation-values">Estimation values</a></li>
+<li><a href="/docs/code-conventions/#repository-rules">Repository rules</a></li>
+<li><a href="/docs/code-conventions/#branch-rules">Branch rules</a></li>
+<li><a href="/docs/code-conventions/#commits">Commits</a></li>
+<li><a href="/docs/code-conventions/#issue-rules">Issue rules</a></li>
+<li><a href="/docs/code-conventions/#pull-request-rules">Pull request rules</a></li>
+<li><a href="/docs/code-conventions/#code-formatting-rules">Code formatting rules</a></li>
+<li><a href="/docs/code-conventions/#additional-code-conventions">Additional Code Conventions</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<blockquote>
+<p>The key words &ldquo;MUST&rdquo;, &ldquo;MUST NOT&rdquo;, &ldquo;REQUIRED&rdquo;, &ldquo;SHALL&rdquo;, &ldquo;SHALL NOT&rdquo;, &ldquo;SHOULD&rdquo;, &ldquo;SHOULD NOT&rdquo;, &ldquo;RECOMMENDED&rdquo;, &ldquo;MAY&rdquo;, and &ldquo;OPTIONAL&rdquo; in this document are to be interpreted as described in <a href="https://www.rfc-editor.org/rfc/rfc2119">RFC 2119</a></p>
+</blockquote>
+<h2 id="priority-values">Priority values</h2>
+<ul>
+<li>
+<p><code>Low</code> - low priority (small pinpoint improvements).</p>
+</li>
+<li>
+<p><code>Normal</code> - normal priority (main features, fixes).</p>
+</li>
+<li>
+<p><code>High</code> - high priority (more important main feature, fix).</p>
+</li>
+<li>
+<p><code>Blocker</code> - other tasks can&rsquo;t be performed until this issue is resolved.</p>
+</li>
+</ul>
+<h2 id="estimation-values">Estimation values</h2>
+<ul>
+<li>
+<p><code>Hours</code> - an issue might take 1-8 hours.</p>
+</li>
+<li>
+<p><code>Days</code> - an issue might take 1-7 days.</p>
+</li>
+<li>
+<p><code>Weeks</code> - an issue might take 1-2 weeks.</p>
+</li>
+</ul>
+<p>If estimation exceeds 2 weeks, an issue MUST be split into smaller ones.</p>
+<h2 id="repository-rules">Repository rules</h2>
+<ul>
+<li>
+<p>A repository MUST allow either <code>merge commits</code> or <code>rebase merging</code>.</p>
+</li>
+<li>
+<p>A repository MUST NOT allow <code>squash merging</code>.</p>
+</li>
+</ul>
+<h2 id="branch-rules">Branch rules</h2>
+<ul>
+<li>
+<p>A main branch name MUST be <code>main</code>.</p>
+</li>
+<li>
+<p>A main branch name MUST be protected.</p>
+</li>
+<li>
+<p>A main branch name MUST NOT be force pushed.</p>
+</li>
+<li>
+<p>A new branch MUST be created for each issue or feature.</p>
+</li>
+<li>
+<p>A new branch name MUST follow the next pattern <code>&lt;type&gt;/PR-NUMBER/optional-info</code>, where <code>&lt;type&gt;</code> is from <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits v1.0.0</a> standard.</p>
+</li>
+</ul>
+<p>e.g.</p>
+<blockquote>
+<p><code>fix/#9</code></p>
+</blockquote>
+<blockquote>
+<p><code>feat/#883/hatsune-miku-the-real-one</code></p>
+</blockquote>
+<blockquote>
+<p><code>docs/#1/me-and-waifu</code></p>
+</blockquote>
+<h2 id="commits">Commits</h2>
+<ul>
+<li>
+<p>A commit message MUST follow <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits v1.0.0</a> standard.</p>
+</li>
+<li>
+<p>A commit message MUST contain the pull request number (e.g., #54) in a scope.</p>
+<blockquote>
+<p>e.g. <code>fix(#53): change button color to red</code></p>
+</blockquote>
+</li>
+<li>
+<p>A commit SHOULD be signed off.</p>
+</li>
+</ul>
+<h2 id="issue-rules">Issue rules</h2>
+<ul>
+<li>
+<p>If an issue is not in <code>Backlog</code>, then it MUST have title, description, priority, estimate and at least one label.</p>
+</li>
+<li>
+<p>An issue body SHOULD NOT be blank.</p>
+</li>
+</ul>
+<h2 id="pull-request-rules">Pull request rules</h2>
+<ul>
+<li>
+<p>A PR title MUST follow <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits v1.0.0</a> standard.</p>
+</li>
+<li>
+<p>A PR body MUST NOT be blank.</p>
+</li>
+<li>
+<p>A PR MUST be linked to a project.</p>
+</li>
+</ul>
+<h2 id="code-formatting-rules">Code formatting rules</h2>
+<ul>
+<li>
+<p>A repository MUST have a formatting style defined in a project.</p>
+</li>
+<li>
+<p>A repository MUST have a README that describes how to set up linter and formatter locally using a style defined in the file (If there are any specifics set up challenges).</p>
+</li>
+</ul>
+<h2 id="additional-code-conventions">Additional Code Conventions</h2>
+<p><strong>Indenting:</strong> 4 spaces MUST be used.</p>
+<p><strong>Descriptive Names:</strong> Use descriptive names for functions or classes.</p>
+<p><strong>Comments:</strong> Avoid comments in the code; aim for self-explanatory code.</p>
+<p><strong>Language Conventions:</strong> Follow language code conventions style.</p>
+<p><strong>KISS Principle:</strong> Always try to Keep It Simple (KISS).</p>
+<p><strong>DRY Principle:</strong> Don&rsquo;t Repeat Yourself (DRY) when you have more than 3 repeats.</p>
+<p><strong>Library Usage:</strong> Do not write a new version; search if it already exists and learn how to use it (we don&rsquo;t need another JS JSON library).</p>
+<p><strong>Testing:</strong> It always nice when a project has some unit tests, or other types of tests. So atleast unit tests are required, and MUST cover as many as possible.</p>
+<p><strong>Documentation:</strong> Emphasize the importance of good documentation. Every repository, module, class, and method should have clear and concise documented.</p>
+<p><strong>Versioning:</strong> In alignment with best practices, we follow <a href="/docs/versioning-conventions/">Semantic Versioning (SemVer)</a> for our software projects.</p>
+<p><strong>Code Ownership:</strong> Always clarify the concept of code ownership. Know for what part you are responsible to. Specify who is responsible for maintaining different parts of the codebase.</p>
+<p><strong>Continuous Integration (CI) and Continuous Deployment (CD):</strong> Outline CI/CD practices, including automated testing, deployment pipelines, and versioning strategies. Always try to automate.</p>
+<p><strong>Accessibility and Internationalization:</strong> If applicable, include guidelines for making your software accessible and supporting internationalization (i18n) and localization (l10n).</p>
+<p><strong>Community Guidelines:</strong> If your project involves an open-source community, include guidelines for community contributions, issue reporting, and code of conduct.</p>
+
+</content>
+<p>
+  
+    <a class="blog-tags" href="//localhost:1313/tags/text/">#Text</a>&nbsp;&nbsp;
+  
+    <a class="blog-tags" href="//localhost:1313/tags/docs/">#Docs</a>&nbsp;&nbsp;
+  
+    <a class="blog-tags" href="//localhost:1313/tags/help/">#Help</a>&nbsp;&nbsp;
+  
+    <a class="blog-tags" href="//localhost:1313/tags/guide/">#Guide</a>&nbsp;&nbsp;
+  
+</p>
+
+  <p>
+    <a href='mailto:btwdesu@gmail.com?subject=Reply%20to%20"Code%20Conventions"'>
+      Reply to this post by email ↪
+    </a>
+  </p>
+
+
+  </main>
+  <footer><small>
+  © 2024 | kenjitheman
+</small></footer>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Computer-Science on kenjitheman</title>
+    <link>//localhost:1313/tags/computer-science/</link>
+    <description>Recent content in Computer-Science on kenjitheman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2024</copyright>
+    <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>//localhost:1313/blog/introduction/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/blog/introduction/</guid>
+      <description>Welcome to the SEAD Club Blog! What to Expect Join the Conversation We sincerely welcome you to the official blog of the Software Engineering and Development (SEAD) Club at the State University&amp;rsquo;s Information and Communication Technologies department This blog is your ticket to a world of captivating research articles created by the bright minds of SEAD Club members.
+What to Expect Here, you can delve into the realm of software engineering, development methodologies, and cutting-edge technologies.</description>
+      <content:encoded><![CDATA[<h1 id="welcome-to-the-sead-club-blog">Welcome to the SEAD Club Blog!</h1>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="/blog/introduction/#what-to-expect">What to Expect</a></li>
+<li><a href="/blog/introduction/#join-the-conversation">Join the Conversation</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<p>We sincerely welcome you to the official blog of the Software Engineering and Development (SEAD) Club at the <a href="https://duikt.edu.ua">State University&rsquo;s Information and Communication Technologies department</a> This blog is your ticket to a world of captivating research articles created by the bright minds of SEAD Club members.</p>
+<h2 id="what-to-expect">What to Expect</h2>
+<p>Here, you can delve into the realm of software engineering, development methodologies, and cutting-edge technologies. Our club members, fueled by a shared passion for software and computer science, offer you interesting and informative articles. Whether you&rsquo;re an experienced developer or just starting your programming journey, there&rsquo;s something for everyone here.</p>
+<ul>
+<li>
+<p><strong>SEAD Club</strong> is more than just a community; it&rsquo;s a center of innovation, collaboration, and learning. Fueled by a common love for Software Engineering and Development, we explore the latest trends, share valuable insights, and unravel the intricacies of the ever-changing technical landscape.</p>
+</li>
+<li>
+<p><strong>Community-Driven Research:</strong> The articles you find here are the result of collective efforts within our lively SEAD Club community. We believe in the power of collective knowledge and learning from one another.</p>
+</li>
+</ul>
+<h2 id="join-the-conversation">Join the Conversation</h2>
+<p>As you explore our blog, we encourage you to interact with the content and share your thoughts. Whether you have questions, insights, or ideas for future topics, your voice is important. SEAD Club is more than just a club; it&rsquo;s a community eager to connect with like-minded individuals.</p>
+<p>Stay tuned for regular updates as we unfold the exciting world of software engineering and development. The SEAD Club Blog is not just a destination; it&rsquo;s a journey through the realms of code, creativity, and collaboration.</p>
+<p>Happy reading, and welcome to the SEAD Club Blog! #js_isn&rsquo;t_cool btw</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

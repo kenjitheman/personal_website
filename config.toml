@@ -1,0 +1,57 @@
+baseURL = "/"
+theme = "hugo-bearcub"
+copyright = "© 2024"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+
+[[menu.main]]
+  name = "&github. "
+  url = "https://github.com/kenjitheman"
+  weight = 3
+[[menu.main]]
+  name = "&twitter. "
+  url = "https://twitter.com/kenjith3man"
+  weight = 4
+[[menu.main]]
+  name = "&telegram. "
+  url = "https://t.me/kenjitheman"
+  weight = 5
+[[menu.main]]
+  name = "&linkedin. "
+  weight = 6
+  url = "https://www.linkedin.com/in/kenjitheman/"
+[[menu.main]]
+  name = "&email. "
+  weight = 7
+  url = "mailto:btwdesu@gmail.com"
+
+[author]
+  name = "github.com/kenjitheman"
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+
+[languages]
+  [languages.en]
+    title = "kenjitheman"
+    languageName = "English"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "kenjitheman"
+
+[params]
+  description = "kenjitheman"
+  favicon = "images/favicon.ico"
+  title = "kenjitheman"
+  dateFormat = "2006-01-02"
+  hideUntranslated = false
+  generateSocialCard = true
+  [social]
+    email = "btwdesu@gmail.com"
+    github = "kenjitheman"
+    telegram = "@kenjitheman"

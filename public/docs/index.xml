@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docs on kenjitheman</title>
+    <link>//localhost:1313/docs/</link>
+    <description>Recent content in Docs on kenjitheman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2024</copyright>
+    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>READ IT FIRST</title>
+      <link>//localhost:1313/docs/docs/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <author>github.com/btwkenji</author>
+      <guid>//localhost:1313/docs/docs/</guid>
+      <description>1. Code Conventions 2. Project Guidelines 3. Documentation Standards 4. Getting Started 5. Contributing to Projects 6. Code of Conduct 7. Versioning Conventions Welcome to the Software Engineering and Development Club&amp;rsquo;s documentation! Here you can find essential documents, guidelines, and resources to help club members follow best practices and contribute effectively to our projects.
+1. Code Conventions The code-conventions.md document outlines our coding standards and best practices. Adhering to these conventions ensures consistency and maintainability across our codebase.</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<ul>
+<li><a href="/docs/docs/#1-code-conventions">1. Code Conventions</a></li>
+<li><a href="/docs/docs/#2-project-guidelines">2. Project Guidelines</a></li>
+<li><a href="/docs/docs/#3-documentation-standards">3. Documentation Standards</a></li>
+<li><a href="/docs/docs/#4-getting-started">4. Getting Started</a></li>
+<li><a href="/docs/docs/#5-contributing-to-projects">5. Contributing to Projects</a></li>
+<li><a href="/docs/docs/#6-code-of-conduct">6. Code of Conduct</a></li>
+<li><a href="/docs/docs/#7-versioning-conventions">7. Versioning Conventions</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<p>Welcome to the Software Engineering and Development Club&rsquo;s documentation! Here you can find essential documents, guidelines, and resources to help club members follow best practices and contribute effectively to our projects.</p>
+<h2 id="1-code-conventions">1. Code Conventions</h2>
+<p>The <a href="/docs/code-conventions/">code-conventions.md</a> document outlines our coding standards and best practices. Adhering to these conventions ensures consistency and maintainability across our codebase.</p>
+<h2 id="2-project-guidelines">2. Project Guidelines</h2>
+<p>Refer to <a href="/docs/project-guidelines/">project-guidelines.md</a> for guidelines on initiating, managing, and contributing to projects within the club. It covers project structure, version control, and collaboration practices.</p>
+<h2 id="3-documentation-standards">3. Documentation Standards</h2>
+<p>Check <a href="/docs/documentation-standards/">documentation-standards.md</a> for guidelines on documenting code, projects, and processes. Clear and comprehensive documentation is crucial for project understanding and maintenance.</p>
+<h2 id="4-getting-started">4. Getting Started</h2>
+<p>New to the club? Get started by following the guide in <a href="/docs/getting-started/">getting-started.md</a> It provides a comprehensive overview of setting up your development environment and diving into our development workflow.</p>
+<h2 id="5-contributing-to-projects">5. Contributing to Projects</h2>
+<p>Learn how to contribute to club projects by reading <a href="/docs/contributing/">contributing.md</a> This document covers forking, branching, making changes, and submitting pull requests.</p>
+<h2 id="6-code-of-conduct">6. Code of Conduct</h2>
+<p>Here you can find <a href="/docs/code-of-conduct/">code-of-conduct.md</a> guidelines or rules that outline the expected behavior and principles for individuals participating in a particular community, organization, or project. It serves as a framework for fostering a positive, inclusive, and respectful environment where all members can collaborate and interact with one another.</p>
+<h2 id="7-versioning-conventions">7. Versioning Conventions</h2>
+<p>In our software development process, maintaining clear and consistent versioning is crucial for effective collaboration and understanding the evolution of our projects. The <a href="/docs/versioning-conventions/">versioning-conventions.md</a> document outlines the guidelines and rules that we follow for versioning our codebase.</p>
+<p>Feel free to reach out to the club administrators or open an issue if you have suggestions or improvements for any of the documents in this repository.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Versioning Conventions</title>
+      <link>//localhost:1313/docs/versioning-conventions/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <author>github.com/btwkenji</author>
+      <guid>//localhost:1313/docs/versioning-conventions/</guid>
+      <description>Introduction Summary Introduction Semantic Versioning Specification (SemVer) Examples MAJOR Version Increment MINOR Version Increment PATCH Version Increment Pre-release Version Build Metadata Why Use Semantic Versioning? FAQ How should I deal with revisions in the 0.y.z initial development phase? How do I know when to release 1.0.0? Doesn&amp;rsquo;t this discourage rapid development and fast iteration? If even the tiniest backward incompatible changes to the public API require a major version bump, won&amp;rsquo;t I end up at version 42.</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<ul>
+<li><a href="/docs/versioning-conventions/#introduction">Introduction</a></li>
+<li><a href="/docs/versioning-conventions/#summary">Summary</a></li>
+<li><a href="/docs/versioning-conventions/#introduction">Introduction</a></li>
+<li><a href="/docs/versioning-conventions/#semantic-versioning-specification-semver">Semantic Versioning Specification (SemVer)</a></li>
+<li><a href="/docs/versioning-conventions/#examples">Examples</a>
+<ul>
+<li><a href="/docs/versioning-conventions/#major-version-increment">MAJOR Version Increment</a></li>
+<li><a href="/docs/versioning-conventions/#minor-version-increment">MINOR Version Increment</a></li>
+<li><a href="/docs/versioning-conventions/#patch-version-increment">PATCH Version Increment</a></li>
+<li><a href="/docs/versioning-conventions/#pre-release-version">Pre-release Version</a></li>
+<li><a href="/docs/versioning-conventions/#build-metadata">Build Metadata</a></li>
+</ul>
+</li>
+<li><a href="/docs/versioning-conventions/#why-use-semantic-versioning">Why Use Semantic Versioning?</a></li>
+<li><a href="/docs/versioning-conventions/#faq">FAQ</a>
+<ul>
+<li><a href="/docs/versioning-conventions/#how-should-i-deal-with-revisions-in-the-0yz-initial-development-phase">How should I deal with revisions in the 0.y.z initial development phase?</a></li>
+<li><a href="/docs/versioning-conventions/#how-do-i-know-when-to-release-100">How do I know when to release 1.0.0?</a></li>
+<li><a href="/docs/versioning-conventions/#doesnt-this-discourage-rapid-development-and-fast-iteration">Doesn&rsquo;t this discourage rapid development and fast iteration?</a></li>
+<li><a href="/docs/versioning-conventions/#if-even-the-tiniest-backward-incompatible-changes-to-the-public-api-require-a-major-version-bump-wont-i-end-up-at-version-4200-very-rapidly">If even the tiniest backward incompatible changes to the public API require a major version bump, won&rsquo;t I end up at version 42.0.0 very rapidly?</a></li>
+<li><a href="/docs/versioning-conventions/#documenting-the-entire-public-api-is-too-much-work">Documenting the entire public API is too much work!</a></li>
+<li><a href="/docs/versioning-conventions/#what-do-i-do-if-i-accidentally-release-a-backward-incompatible-change-as-a-minor-version">What do I do if I accidentally release a backward incompatible change as a minor version?</a></li>
+<li><a href="/docs/versioning-conventions/#what-should-i-do-if-i-update-my-own-dependencies-without-changing-the-public-api">What should I do if I update my own dependencies without changing the public API?</a></li>
+<li><a href="/docs/versioning-conventions/#what-if-i-inadvertently-alter-the-public-api-in-a-way-that-is-not-compliant-with-the-version-number-change-ie-the-code-incorrectly-introduces-a-major-breaking-change-in-a-patch-release">What if I inadvertently alter the public API in a way that is not compliant with the version number change (i.e. the code incorrectly introduces a major breaking change in a patch release)?</a></li>
+<li><a href="/docs/versioning-conventions/#how-should-i-handle-deprecating-functionality">How should I handle deprecating functionality?</a></li>
+<li><a href="/docs/versioning-conventions/#does-semver-have-a-size-limit-on-the-version-string">Does SemVer have a size limit on the version string?</a></li>
+<li><a href="/docs/versioning-conventions/#is-v123-a-semantic-version">Is &ldquo;v1.2.3&rdquo; a semantic version?</a></li>
+</ul>
+</li>
+<li><a href="/docs/versioning-conventions/#about">About</a></li>
+<li><a href="/docs/versioning-conventions/#license">License</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="introduction">Introduction</h2>
+<p>This document outlines the versioning conventions adopted by the Software Engineering and Development Club at the State University of Information and Communication Technologies. These conventions are based on the standard versioning practices in the Rust programming language. Semantic Versioning 2.0.0</p>
+<h2 id="summary">Summary</h2>
+<p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>
+<ol>
+<li>
+<p>MAJOR version when you make incompatible API changes</p>
+</li>
+<li>
+<p>MINOR version when you add functionality in a backward compatible manner</p>
+</li>
+<li>
+<p>PATCH version when you make backward compatible bug fixes</p>
+</li>
+</ol>
+<p>Additional labels for pre-release and build metadata are available as extensions
+to the MAJOR.MINOR.PATCH format.</p>
+<h2 id="introduction-1">Introduction</h2>
+<p>In the world of software management there exists a dreaded place called
+&ldquo;dependency hell.&rdquo; The bigger your system grows and the more packages you
+integrate into your software, the more likely you are to find yourself, one
+day, in this pit of despair.</p>
+<p>In systems with many dependencies, releasing new package versions can quickly
+become a nightmare. If the dependency specifications are too tight, you are in
+danger of version lock (the inability to upgrade a package without having to
+release new versions of every dependent package). If dependencies are
+specified too loosely, you will inevitably be bitten by version promiscuity
+(assuming compatibility with more future versions than is reasonable).
+Dependency hell is where you are when version lock and/or version promiscuity
+prevent you from easily and safely moving your project forward.</p>
+<p>As a solution to this problem, was proposed a simple set of rules and
+requirements that dictate how version numbers are assigned and incremented.
+These rules are based on but not necessarily limited to pre-existing
+widespread common practices in use in both closed and open-source software.
+For this system to work, you first need to declare a public API. This may
+consist of documentation or be enforced by the code itself. Regardless, it is
+important that this API be clear and precise. Once you identify your public
+API, you communicate changes to it with specific increments to your version
+number. Consider a version format of X.Y.Z (Major.Minor.Patch). Bug fixes not
+affecting the API increment the patch version, backward compatible API
+additions/changes increment the minor version, and backward incompatible API
+changes increment the major version.</p>
+<p>This set of rules was called &ldquo;Semantic Versioning.&rdquo; Under this scheme, version numbers
+and the way they change convey meaning about the underlying code and what has
+been modified from one version to the next.</p>
+<h2 id="semantic-versioning-specification-semver">Semantic Versioning Specification (SemVer)</h2>
+<p>The key words &ldquo;MUST&rdquo;, &ldquo;MUST NOT&rdquo;, &ldquo;REQUIRED&rdquo;, &ldquo;SHALL&rdquo;, &ldquo;SHALL NOT&rdquo;, &ldquo;SHOULD&rdquo;,
+&ldquo;SHOULD NOT&rdquo;, &ldquo;RECOMMENDED&rdquo;, &ldquo;MAY&rdquo;, and &ldquo;OPTIONAL&rdquo; in this document are to be
+interpreted as described in <a href="https://tools.ietf.org/html/rfc2119">RFC 2119</a></p>
+<ol>
+<li>
+<p>Software using Semantic Versioning MUST declare a public API. This API
+could be declared in the code itself or exist strictly in documentation.
+However it is done, it SHOULD be precise and comprehensive.</p>
+</li>
+<li>
+<p>A normal version number MUST take the form X.Y.Z where X, Y, and Z are
+non-negative integers, and MUST NOT contain leading zeroes. X is the
+major version, Y is the minor version, and Z is the patch version.
+Each element MUST increase numerically. For instance: 1.9.0 -&gt; 1.10.0 -&gt; 1.11.0.</p>
+</li>
+<li>
+<p>Once a versioned package has been released, the contents of that version
+MUST NOT be modified. Any modifications MUST be released as a new version.</p>
+</li>
+<li>
+<p>Major version zero (0.y.z) is for initial development. Anything MAY change
+at any time. The public API SHOULD NOT be considered stable.</p>
+</li>
+<li>
+<p>Version 1.0.0 defines the public API. The way in which the version number
+is incremented after this release is dependent on this public API and how it
+changes.</p>
+</li>
+<li>
+<p>Patch version Z (x.y.Z | x &gt; 0) MUST be incremented if only backward
+compatible bug fixes are introduced. A bug fix is defined as an internal
+change that fixes incorrect behavior.</p>
+</li>
+<li>
+<p>Minor version Y (x.Y.z | x &gt; 0) MUST be incremented if new, backward
+compatible functionality is introduced to the public API. It MUST be
+incremented if any public API functionality is marked as deprecated. It MAY be
+incremented if substantial new functionality or improvements are introduced
+within the private code. It MAY include patch level changes. Patch version
+MUST be reset to 0 when minor version is incremented.</p>
+</li>
+<li>
+<p>Major version X (X.y.z | X &gt; 0) MUST be incremented if any backward
+incompatible changes are introduced to the public API. It MAY also include minor
+and patch level changes. Patch and minor versions MUST be reset to 0 when major
+version is incremented.</p>
+</li>
+<li>
+<p>A pre-release version MAY be denoted by appending a hyphen and a
+series of dot separated identifiers immediately following the patch
+version. Identifiers MUST comprise only ASCII alphanumerics and hyphens
+[0-9A-Za-z-]. Identifiers MUST NOT be empty. Numeric identifiers MUST
+NOT include leading zeroes. Pre-release versions have a lower
+precedence than the associated normal version. A pre-release version
+indicates that the version is unstable and might not satisfy the
+intended compatibility requirements as denoted by its associated
+normal version. Examples: 1.0.0-alpha, 1.0.0-alpha.1, 1.0.0-0.3.7,
+1.0.0-x.7.z.92, 1.0.0-x-y-z.--.</p>
+</li>
+<li>
+<p>Build metadata MAY be denoted by appending a plus sign and a series of dot
+separated identifiers immediately following the patch or pre-release version.
+Identifiers MUST comprise only ASCII alphanumerics and hyphens [0-9A-Za-z-].
+Identifiers MUST NOT be empty. Build metadata MUST be ignored when determining
+version precedence. Thus two versions that differ only in the build metadata,
+have the same precedence. Examples: 1.0.0-alpha+001, 1.0.0+20130313144700,
+1.0.0-beta+exp.sha.5114f85, 1.0.0+21AF26D3----117B344092BD.</p>
+</li>
+<li>
+<p>Precedence refers to how versions are compared to each other when ordered.</p>
+<ol>
+<li>
+<p>Precedence MUST be calculated by separating the version into major,
+minor, patch and pre-release identifiers in that order (Build metadata
+does not figure into precedence).</p>
+</li>
+<li>
+<p>Precedence is determined by the first difference when comparing each of
+these identifiers from left to right as follows: Major, minor, and patch
+versions are always compared numerically.</p>
+<p>Example: 1.0.0 &lt; 2.0.0 &lt; 2.1.0 &lt; 2.1.1.</p>
+</li>
+<li>
+<p>When major, minor, and patch are equal, a pre-release version has lower
+precedence than a normal version:</p>
+<p>Example: 1.0.0-alpha &lt; 1.0.0.</p>
+</li>
+<li>
+<p>Precedence for two pre-release versions with the same major, minor, and
+patch version MUST be determined by comparing each dot separated identifier
+from left to right until a difference is found as follows:</p>
+<ol>
+<li>
+<p>Identifiers consisting of only digits are compared numerically.</p>
+</li>
+<li>
+<p>Identifiers with letters or hyphens are compared lexically in ASCII
+sort order.</p>
+</li>
+<li>
+<p>Numeric identifiers always have lower precedence than non-numeric
+identifiers.</p>
+</li>
+<li>
+<p>A larger set of pre-release fields has a higher precedence than a
+smaller set, if all of the preceding identifiers are equal.</p>
+</li>
+</ol>
+<p>Example: 1.0.0-alpha &lt; 1.0.0-alpha.1 &lt; 1.0.0-alpha.beta &lt; 1.0.0-beta &lt;
+1.0.0-beta.2 &lt; 1.0.0-beta.11 &lt; 1.0.0-rc.1 &lt; 1.0.0.</p>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="examples">Examples</h2>
+<h3 id="major-version-increment">MAJOR Version Increment</h3>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="ln">1</span><span class="cl"><span class="c1">// Before breaking change
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="c1"></span><span class="k">pub</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="no">VERSION</span>: <span class="kp">&amp;</span><span class="kt">str</span> <span class="o">=</span><span class="w"> </span><span class="s">&#34;1.0.0&#34;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="w"></span><span class="c1">// After breaking change
+</span></span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="c1"></span><span class="k">pub</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="no">VERSION</span>: <span class="kp">&amp;</span><span class="kt">str</span> <span class="o">=</span><span class="w"> </span><span class="s">&#34;2.0.0&#34;</span><span class="p">;</span></span></span></code></pre></div><h3 id="minor-version-increment">MINOR Version Increment</h3>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="ln">1</span><span class="cl"><span class="c1">// Before new feature addition
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="c1"></span><span class="k">pub</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="no">VERSION</span>: <span class="kp">&amp;</span><span class="kt">str</span> <span class="o">=</span><span class="w"> </span><span class="s">&#34;1.2.0&#34;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="w"></span><span class="c1">// After adding a new feature
+</span></span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="c1"></span><span class="k">pub</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="no">VERSION</span>: <span class="kp">&amp;</span><span class="kt">str</span> <span class="o">=</span><span class="w"> </span><span class="s">&#34;1.3.0&#34;</span><span class="p">;</span></span></span></code></pre></div><h3 id="patch-version-increment">PATCH Version Increment</h3>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="ln">1</span><span class="cl"><span class="c1">// Before bug fix
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="c1"></span><span class="k">pub</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="no">VERSION</span>: <span class="kp">&amp;</span><span class="kt">str</span> <span class="o">=</span><span class="w"> </span><span class="s">&#34;1.2.3&#34;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="w"></span><span class="c1">// After fixing a bug
+</span></span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="c1"></span><span class="k">pub</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="no">VERSION</span>: <span class="kp">&amp;</span><span class="kt">str</span> <span class="o">=</span><span class="w"> </span><span class="s">&#34;1.2.4&#34;</span><span class="p">;</span></span></span></code></pre></div><h3 id="pre-release-version">Pre-release Version</h3>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="ln">1</span><span class="cl"><span class="c1">// Before stable release
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="c1"></span><span class="k">pub</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="no">VERSION</span>: <span class="kp">&amp;</span><span class="kt">str</span> <span class="o">=</span><span class="w"> </span><span class="s">&#34;1.2.3-alpha.1&#34;</span><span class="p">;</span></span></span></code></pre></div><h3 id="build-metadata">Build Metadata</h3>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="ln">1</span><span class="cl"><span class="c1">// With build metadata
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="c1"></span><span class="k">pub</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="no">VERSION</span>: <span class="kp">&amp;</span><span class="kt">str</span> <span class="o">=</span><span class="w"> </span><span class="s">&#34;1.2.3+20130313144700&#34;</span><span class="p">;</span></span></span></code></pre></div><h2 id="why-use-semantic-versioning">Why Use Semantic Versioning?</h2>
+<p>This is not a new or revolutionary idea. In fact, you probably do something
+close to this already. The problem is that &ldquo;close&rdquo; isn&rsquo;t good enough. Without
+compliance to some sort of formal specification, version numbers are
+essentially useless for dependency management. By giving a name and clear
+definition to the above ideas, it becomes easy to communicate your intentions
+to the users of your software. Once these intentions are clear, flexible (but
+not too flexible) dependency specifications can finally be made.</p>
+<p>A simple example will demonstrate how Semantic Versioning can make dependency
+hell a thing of the past. Consider a library called &ldquo;Firetruck.&rdquo; It requires a
+Semantically Versioned package named &ldquo;Ladder.&rdquo; At the time that Firetruck is
+created, Ladder is at version 3.1.0. Since Firetruck uses some functionality
+that was first introduced in 3.1.0, you can safely specify the Ladder
+dependency as greater than or equal to 3.1.0 but less than 4.0.0. Now, when
+Ladder version 3.1.1 and 3.2.0 become available, you can release them to your
+package management system and know that they will be compatible with existing
+dependent software.</p>
+<p>As a responsible developer you will, of course, want to verify that any
+package upgrades function as advertised. The real world is a messy place;
+there&rsquo;s nothing we can do about that but be vigilant. What you can do is let
+Semantic Versioning provide you with a sane way to release and upgrade
+packages without having to roll new versions of dependent packages, saving you
+time and hassle.</p>
+<p>If all of this sounds desirable, all you need to do to start using Semantic
+Versioning is to declare that you are doing so and then follow the rules. Link
+to this website from your README so others know the rules and can benefit from
+them.</p>
+<h2 id="faq">FAQ</h2>
+<h3 id="how-should-i-deal-with-revisions-in-the-0yz-initial-development-phase">How should I deal with revisions in the 0.y.z initial development phase?</h3>
+<p>The simplest thing to do is start your initial development release at 0.1.0
+and then increment the minor version for each subsequent release.</p>
+<h3 id="how-do-i-know-when-to-release-100">How do I know when to release 1.0.0?</h3>
+<p>If your software is being used in production, it should probably already be
+1.0.0. If you have a stable API on which users have come to depend, you should
+be 1.0.0. If you&rsquo;re worrying a lot about backward compatibility, you should
+probably already be 1.0.0.</p>
+<h3 id="doesnt-this-discourage-rapid-development-and-fast-iteration">Doesn&rsquo;t this discourage rapid development and fast iteration?</h3>
+<p>Major version zero is all about rapid development. If you&rsquo;re changing the API
+every day you should either still be in version 0.y.z or on a separate
+development branch working on the next major version.</p>
+<h3 id="if-even-the-tiniest-backward-incompatible-changes-to-the-public-api-require-a-major-version-bump-wont-i-end-up-at-version-4200-very-rapidly">If even the tiniest backward incompatible changes to the public API require a major version bump, won&rsquo;t I end up at version 42.0.0 very rapidly?</h3>
+<p>This is a question of responsible development and foresight. Incompatible
+changes should not be introduced lightly to software that has a lot of
+dependent code. The cost that must be incurred to upgrade can be significant.
+Having to bump major versions to release incompatible changes means you&rsquo;ll
+think through the impact of your changes, and evaluate the cost/benefit ratio
+involved.</p>
+<h3 id="documenting-the-entire-public-api-is-too-much-work">Documenting the entire public API is too much work!</h3>
+<p>It is your responsibility as a professional developer to properly document
+software that is intended for use by others. Managing software complexity is a
+hugely important part of keeping a project efficient, and that&rsquo;s hard to do if
+nobody knows how to use your software, or what methods are safe to call. In
+the long run, Semantic Versioning, and the insistence on a well defined public
+API can keep everyone and everything running smoothly.</p>
+<h3 id="what-do-i-do-if-i-accidentally-release-a-backward-incompatible-change-as-a-minor-version">What do I do if I accidentally release a backward incompatible change as a minor version?</h3>
+<p>As soon as you realize that you&rsquo;ve broken the Semantic Versioning spec, fix
+the problem and release a new minor version that corrects the problem and
+restores backward compatibility. Even under this circumstance, it is
+unacceptable to modify versioned releases. If it&rsquo;s appropriate,
+document the offending version and inform your users of the problem so that
+they are aware of the offending version.</p>
+<h3 id="what-should-i-do-if-i-update-my-own-dependencies-without-changing-the-public-api">What should I do if I update my own dependencies without changing the public API?</h3>
+<p>That would be considered compatible since it does not affect the public API.
+Software that explicitly depends on the same dependencies as your package
+should have their own dependency specifications and the author will notice any
+conflicts. Determining whether the change is a patch level or minor level
+modification depends on whether you updated your dependencies in order to fix
+a bug or introduce new functionality. We would usually expect additional code
+for the latter instance, in which case it&rsquo;s obviously a minor level increment.</p>
+<h3 id="what-if-i-inadvertently-alter-the-public-api-in-a-way-that-is-not-compliant-with-the-version-number-change-ie-the-code-incorrectly-introduces-a-major-breaking-change-in-a-patch-release">What if I inadvertently alter the public API in a way that is not compliant with the version number change (i.e. the code incorrectly introduces a major breaking change in a patch release)?</h3>
+<p>Use your best judgment. If you have a huge audience that will be drastically
+impacted by changing the behavior back to what the public API intended, then
+it may be best to perform a major version release, even though the fix could
+strictly be considered a patch release. Remember, Semantic Versioning is all
+about conveying meaning by how the version number changes. If these changes
+are important to your users, use the version number to inform them.</p>
+<h3 id="how-should-i-handle-deprecating-functionality">How should I handle deprecating functionality?</h3>
+<p>Deprecating existing functionality is a normal part of software development and
+is often required to make forward progress. When you deprecate part of your
+public API, you should do two things: (1) update your documentation to let
+users know about the change, (2) issue a new minor release with the deprecation
+in place. Before you completely remove the functionality in a new major release
+there should be at least one minor release that contains the deprecation so
+that users can smoothly transition to the new API.</p>
+<h3 id="does-semver-have-a-size-limit-on-the-version-string">Does SemVer have a size limit on the version string?</h3>
+<p>No, but use good judgment. A 255 character version string is probably overkill,
+for example. Also, specific systems may impose their own limits on the size of
+the string.</p>
+<h3 id="is-v123-a-semantic-version">Is &ldquo;v1.2.3&rdquo; a semantic version?</h3>
+<p>No, &ldquo;v1.2.3&rdquo; is not a semantic version. However, prefixing a semantic version
+with a &ldquo;v&rdquo; is a common way (in English) to indicate it is a version number.
+Abbreviating &ldquo;version&rdquo; as &ldquo;v&rdquo; is often seen with version control. Example:
+<code>git tag v1.2.3 -m &quot;Release version 1.2.3&quot;</code>, in which case &ldquo;v1.2.3&rdquo; is a tag
+name and the semantic version is &ldquo;1.2.3&rdquo;.</p>
+<h2 id="about">About</h2>
+<p>The Semantic Versioning specification was originally authored by <a href="https://tom.preston-werner.com">Tom
+Preston-Werner</a> Inventor of Gravatar and
+cofounder of GitHub.</p>
+<h2 id="license">License</h2>
+<p><a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons ― CC BY 3.0</a></p>
+<p>Original source: <a href="https://semver.org/">https://semver.org/</a></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Code Conventions</title>
+      <link>//localhost:1313/docs/code-conventions/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <author>github.com/btwkenji</author>
+      <guid>//localhost:1313/docs/code-conventions/</guid>
+      <description>Priority values Estimation values Repository rules Branch rules Commits Issue rules Pull request rules Code formatting rules Additional Code Conventions The key words &amp;ldquo;MUST&amp;rdquo;, &amp;ldquo;MUST NOT&amp;rdquo;, &amp;ldquo;REQUIRED&amp;rdquo;, &amp;ldquo;SHALL&amp;rdquo;, &amp;ldquo;SHALL NOT&amp;rdquo;, &amp;ldquo;SHOULD&amp;rdquo;, &amp;ldquo;SHOULD NOT&amp;rdquo;, &amp;ldquo;RECOMMENDED&amp;rdquo;, &amp;ldquo;MAY&amp;rdquo;, and &amp;ldquo;OPTIONAL&amp;rdquo; in this document are to be interpreted as described in RFC 2119
+Priority values Low - low priority (small pinpoint improvements).
+Normal - normal priority (main features, fixes).
+High - high priority (more important main feature, fix).</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<ul>
+<li><a href="/docs/code-conventions/#priority-values">Priority values</a></li>
+<li><a href="/docs/code-conventions/#estimation-values">Estimation values</a></li>
+<li><a href="/docs/code-conventions/#repository-rules">Repository rules</a></li>
+<li><a href="/docs/code-conventions/#branch-rules">Branch rules</a></li>
+<li><a href="/docs/code-conventions/#commits">Commits</a></li>
+<li><a href="/docs/code-conventions/#issue-rules">Issue rules</a></li>
+<li><a href="/docs/code-conventions/#pull-request-rules">Pull request rules</a></li>
+<li><a href="/docs/code-conventions/#code-formatting-rules">Code formatting rules</a></li>
+<li><a href="/docs/code-conventions/#additional-code-conventions">Additional Code Conventions</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<blockquote>
+<p>The key words &ldquo;MUST&rdquo;, &ldquo;MUST NOT&rdquo;, &ldquo;REQUIRED&rdquo;, &ldquo;SHALL&rdquo;, &ldquo;SHALL NOT&rdquo;, &ldquo;SHOULD&rdquo;, &ldquo;SHOULD NOT&rdquo;, &ldquo;RECOMMENDED&rdquo;, &ldquo;MAY&rdquo;, and &ldquo;OPTIONAL&rdquo; in this document are to be interpreted as described in <a href="https://www.rfc-editor.org/rfc/rfc2119">RFC 2119</a></p>
+</blockquote>
+<h2 id="priority-values">Priority values</h2>
+<ul>
+<li>
+<p><code>Low</code> - low priority (small pinpoint improvements).</p>
+</li>
+<li>
+<p><code>Normal</code> - normal priority (main features, fixes).</p>
+</li>
+<li>
+<p><code>High</code> - high priority (more important main feature, fix).</p>
+</li>
+<li>
+<p><code>Blocker</code> - other tasks can&rsquo;t be performed until this issue is resolved.</p>
+</li>
+</ul>
+<h2 id="estimation-values">Estimation values</h2>
+<ul>
+<li>
+<p><code>Hours</code> - an issue might take 1-8 hours.</p>
+</li>
+<li>
+<p><code>Days</code> - an issue might take 1-7 days.</p>
+</li>
+<li>
+<p><code>Weeks</code> - an issue might take 1-2 weeks.</p>
+</li>
+</ul>
+<p>If estimation exceeds 2 weeks, an issue MUST be split into smaller ones.</p>
+<h2 id="repository-rules">Repository rules</h2>
+<ul>
+<li>
+<p>A repository MUST allow either <code>merge commits</code> or <code>rebase merging</code>.</p>
+</li>
+<li>
+<p>A repository MUST NOT allow <code>squash merging</code>.</p>
+</li>
+</ul>
+<h2 id="branch-rules">Branch rules</h2>
+<ul>
+<li>
+<p>A main branch name MUST be <code>main</code>.</p>
+</li>
+<li>
+<p>A main branch name MUST be protected.</p>
+</li>
+<li>
+<p>A main branch name MUST NOT be force pushed.</p>
+</li>
+<li>
+<p>A new branch MUST be created for each issue or feature.</p>
+</li>
+<li>
+<p>A new branch name MUST follow the next pattern <code>&lt;type&gt;/PR-NUMBER/optional-info</code>, where <code>&lt;type&gt;</code> is from <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits v1.0.0</a> standard.</p>
+</li>
+</ul>
+<p>e.g.</p>
+<blockquote>
+<p><code>fix/#9</code></p>
+</blockquote>
+<blockquote>
+<p><code>feat/#883/hatsune-miku-the-real-one</code></p>
+</blockquote>
+<blockquote>
+<p><code>docs/#1/me-and-waifu</code></p>
+</blockquote>
+<h2 id="commits">Commits</h2>
+<ul>
+<li>
+<p>A commit message MUST follow <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits v1.0.0</a> standard.</p>
+</li>
+<li>
+<p>A commit message MUST contain the pull request number (e.g., #54) in a scope.</p>
+<blockquote>
+<p>e.g. <code>fix(#53): change button color to red</code></p>
+</blockquote>
+</li>
+<li>
+<p>A commit SHOULD be signed off.</p>
+</li>
+</ul>
+<h2 id="issue-rules">Issue rules</h2>
+<ul>
+<li>
+<p>If an issue is not in <code>Backlog</code>, then it MUST have title, description, priority, estimate and at least one label.</p>
+</li>
+<li>
+<p>An issue body SHOULD NOT be blank.</p>
+</li>
+</ul>
+<h2 id="pull-request-rules">Pull request rules</h2>
+<ul>
+<li>
+<p>A PR title MUST follow <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits v1.0.0</a> standard.</p>
+</li>
+<li>
+<p>A PR body MUST NOT be blank.</p>
+</li>
+<li>
+<p>A PR MUST be linked to a project.</p>
+</li>
+</ul>
+<h2 id="code-formatting-rules">Code formatting rules</h2>
+<ul>
+<li>
+<p>A repository MUST have a formatting style defined in a project.</p>
+</li>
+<li>
+<p>A repository MUST have a README that describes how to set up linter and formatter locally using a style defined in the file (If there are any specifics set up challenges).</p>
+</li>
+</ul>
+<h2 id="additional-code-conventions">Additional Code Conventions</h2>
+<p><strong>Indenting:</strong> 4 spaces MUST be used.</p>
+<p><strong>Descriptive Names:</strong> Use descriptive names for functions or classes.</p>
+<p><strong>Comments:</strong> Avoid comments in the code; aim for self-explanatory code.</p>
+<p><strong>Language Conventions:</strong> Follow language code conventions style.</p>
+<p><strong>KISS Principle:</strong> Always try to Keep It Simple (KISS).</p>
+<p><strong>DRY Principle:</strong> Don&rsquo;t Repeat Yourself (DRY) when you have more than 3 repeats.</p>
+<p><strong>Library Usage:</strong> Do not write a new version; search if it already exists and learn how to use it (we don&rsquo;t need another JS JSON library).</p>
+<p><strong>Testing:</strong> It always nice when a project has some unit tests, or other types of tests. So atleast unit tests are required, and MUST cover as many as possible.</p>
+<p><strong>Documentation:</strong> Emphasize the importance of good documentation. Every repository, module, class, and method should have clear and concise documented.</p>
+<p><strong>Versioning:</strong> In alignment with best practices, we follow <a href="/docs/versioning-conventions/">Semantic Versioning (SemVer)</a> for our software projects.</p>
+<p><strong>Code Ownership:</strong> Always clarify the concept of code ownership. Know for what part you are responsible to. Specify who is responsible for maintaining different parts of the codebase.</p>
+<p><strong>Continuous Integration (CI) and Continuous Deployment (CD):</strong> Outline CI/CD practices, including automated testing, deployment pipelines, and versioning strategies. Always try to automate.</p>
+<p><strong>Accessibility and Internationalization:</strong> If applicable, include guidelines for making your software accessible and supporting internationalization (i18n) and localization (l10n).</p>
+<p><strong>Community Guidelines:</strong> If your project involves an open-source community, include guidelines for community contributions, issue reporting, and code of conduct.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Code of conduct</title>
+      <link>//localhost:1313/docs/code-of-conduct/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <author>github.com/btwkenji</author>
+      <guid>//localhost:1313/docs/code-of-conduct/</guid>
+      <description>Our Pledge Our Standards Our Responsibilities Scope Enforcement Attribution Our Pledge In the interest of fostering an open and welcoming environment, we, as contributors and maintainers, pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+Our Standards Examples of behavior that contributes to creating a positive environment include:</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<ul>
+<li><a href="/docs/code-of-conduct/#our-pledge">Our Pledge</a></li>
+<li><a href="/docs/code-of-conduct/#our-standards">Our Standards</a></li>
+<li><a href="/docs/code-of-conduct/#our-responsibilities">Our Responsibilities</a></li>
+<li><a href="/docs/code-of-conduct/#scope">Scope</a></li>
+<li><a href="/docs/code-of-conduct/#enforcement">Enforcement</a></li>
+<li><a href="/docs/code-of-conduct/#attribution">Attribution</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="our-pledge">Our Pledge</h2>
+<p>In the interest of fostering an open and welcoming environment, we, as contributors and maintainers, pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.</p>
+<h2 id="our-standards">Our Standards</h2>
+<p>Examples of behavior that contributes to creating a positive environment include:</p>
+<ul>
+<li>
+<p>Using welcoming and inclusive language</p>
+</li>
+<li>
+<p>Being respectful of differing viewpoints and experiences</p>
+</li>
+<li>
+<p>Gracefully accepting constructive criticism</p>
+</li>
+<li>
+<p>Focusing on what is best for the community</p>
+</li>
+<li>
+<p>Showing empathy towards other community members</p>
+</li>
+</ul>
+<p>Examples of unacceptable behavior by participants include:</p>
+<ul>
+<li>
+<p>The use of sexualized language or imagery and unwelcome sexual attention or advances</p>
+</li>
+<li>
+<p>Trolling, insulting/derogatory comments, and personal or political attacks</p>
+</li>
+<li>
+<p>Public or private harassment</p>
+</li>
+<li>
+<p>Publishing others&rsquo; private information, such as a physical or electronic address, without explicit permission</p>
+</li>
+<li>
+<p>Other conduct that could reasonably be considered inappropriate in a professional setting</p>
+</li>
+</ul>
+<h2 id="our-responsibilities">Our Responsibilities</h2>
+<p>Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.</p>
+<p>Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.</p>
+<h2 id="scope">Scope</h2>
+<p>This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project email address, posting via an official social media account, or acting as an appointed representative at an online or offline event.</p>
+<h2 id="enforcement">Enforcement</h2>
+<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [kenjith3man@gmail.com]. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.</p>
+<p>Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project’s leadership.</p>
+<h2 id="attribution">Attribution</h2>
+<p>This Code of Conduct is adapted from the <a href="https://www.contributor-covenant.org">Contributor Covenant</a> version 2.0, available at <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct.html">https://www.contributor-covenant.org/version/2/0/code_of_conduct.html</a></p>
+<p>For answers to common questions about this code of conduct, see <a href="https://www.contributor-covenant.org/faq">https://www.contributor-covenant.org/faq</a></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Contributing Guidelines</title>
+      <link>//localhost:1313/docs/contributing/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <author>github.com/btwkenji</author>
+      <guid>//localhost:1313/docs/contributing/</guid>
+      <description>1. How to Contribute 2. Code of Conduct 3. Reporting Bugs 4. Suggesting Enhancements 5. Code Contribution 6. Pull Request Process 7. Review Process 8. Code of Conduct Enforcement 9. Attribution By following these guidelines, you can help us maintain a collaborative and inclusive community.
+1. How to Contribute Contributing to our projects is easy! Follow these steps to get started:
+Fork or clone the repository.
+Create a new branch for your feature or bug fix.</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<ul>
+<li><a href="/docs/contributing/#1-how-to-contribute">1. How to Contribute</a></li>
+<li><a href="/docs/contributing/#2-code-of-conduct">2. Code of Conduct</a></li>
+<li><a href="/docs/contributing/#3-reporting-bugs">3. Reporting Bugs</a></li>
+<li><a href="/docs/contributing/#4-suggesting-enhancements">4. Suggesting Enhancements</a></li>
+<li><a href="/docs/contributing/#5-code-contribution">5. Code Contribution</a></li>
+<li><a href="/docs/contributing/#6-pull-request-process">6. Pull Request Process</a></li>
+<li><a href="/docs/contributing/#7-review-process">7. Review Process</a></li>
+<li><a href="/docs/contributing/#8-code-of-conduct-enforcement">8. Code of Conduct Enforcement</a></li>
+<li><a href="/docs/contributing/#9-attribution">9. Attribution</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<p>By following these guidelines, you can help us maintain a collaborative and inclusive community.</p>
+<h2 id="1-how-to-contribute">1. How to Contribute</h2>
+<p>Contributing to our projects is easy! Follow these steps to get started:</p>
+<ul>
+<li>
+<p>Fork or clone the repository.</p>
+</li>
+<li>
+<p>Create a new branch for your feature or bug fix.</p>
+</li>
+<li>
+<p>Make your changes and commit them with clear and concise messages.</p>
+</li>
+<li>
+<p>Push your changes to your branch.</p>
+</li>
+<li>
+<p>Submit a pull request, explaining the changes you made.</p>
+</li>
+</ul>
+<p><a href="/docs/code-conventions/">More about code conventions</a></p>
+<h2 id="2-code-of-conduct">2. Code of Conduct</h2>
+<p>Please review and adhere to our <a href="/docs/code-of-conduct/">Code of Conduct</a> to ensure a positive and inclusive environment for everyone.</p>
+<h2 id="3-reporting-bugs">3. Reporting Bugs</h2>
+<p>If you encounter a bug, open an issue following these guidelines:</p>
+<ul>
+<li>
+<p>Include a detailed description of the bug and steps to reproduce it.</p>
+</li>
+<li>
+<p>Attach relevant screenshots or error messages (not nessesary, but often can be helpful).</p>
+</li>
+</ul>
+<h2 id="4-suggesting-enhancements">4. Suggesting Enhancements</h2>
+<p>Have a great idea for an enhancement? Follow these steps:</p>
+<ul>
+<li>
+<p>Clearly describe the proposed enhancement.</p>
+</li>
+<li>
+<p>Provide any additional context or examples.</p>
+</li>
+</ul>
+<h2 id="5-code-contribution">5. Code Contribution</h2>
+<p>When contributing code, follow these guidelines:</p>
+<ul>
+<li>
+<p>Adhere to the coding standards and conventions outlined in <a href="/docs/code-conventions/">code-conventions.md</a></p>
+</li>
+<li>
+<p>Ensure your code is well-documented.</p>
+</li>
+<li>
+<p>Write tests for your code if applicable.</p>
+</li>
+<li>
+<p>Make small, focused commits with clear messages.</p>
+</li>
+</ul>
+<h2 id="6-pull-request-process">6. Pull Request Process</h2>
+<p>Follow these steps when submitting a pull request:</p>
+<ul>
+<li>
+<p>Ensure your branch is up-to-date with the latest changes from the main branch.</p>
+</li>
+<li>
+<p>Include relevant tests for your changes.</p>
+</li>
+<li>
+<p>Update the documentation if necessary.</p>
+</li>
+<li>
+<p>Ensure your code passes all automated checks.</p>
+</li>
+<li>
+<p>Request reviews from other contributors.</p>
+</li>
+</ul>
+<h2 id="7-review-process">7. Review Process</h2>
+<p>All contributions go through a review process:</p>
+<ul>
+<li>
+<p>Reviewers will provide feedback and request changes if needed.</p>
+</li>
+<li>
+<p>Address feedback and make necessary adjustments.</p>
+</li>
+<li>
+<p>Once approved, your pull request will be merged.</p>
+</li>
+</ul>
+<h2 id="8-code-of-conduct-enforcement">8. Code of Conduct Enforcement</h2>
+<p>We take our Code of Conduct seriously. Any violations should be reported to <strong><a href="mailto:the.sead.club@gmail.com">the.sead.club@gmail.com</a></strong> All reports will be kept confidential.</p>
+<h2 id="9-attribution">9. Attribution</h2>
+<p>Thank you for contributing to the SEAD Club! Your efforts help us build a thriving and collaborative community.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Documentation Standards</title>
+      <link>//localhost:1313/docs/documentation-standards/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <author>github.com/btwkenji</author>
+      <guid>//localhost:1313/docs/documentation-standards/</guid>
+      <description>1. Code Documentation 2. Project Documentation Contributing to Documentation Standards This document outlines guidelines on how to document code, projects, and processes effectively. Clear and comprehensive documentation is crucial for the understanding and future maintenance of our projects.
+1. Code Documentation In code-conventions.md we have established code conventions. Additionally, code documentation should adhere to the following standards:
+Comments: Use comments sparingly and aim for self-explanatory code. Only include comments for complex algorithms or to clarify non-obvious code sections.</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<ul>
+<li><a href="/docs/documentation-standards/#1-code-documentation">1. Code Documentation</a></li>
+<li><a href="/docs/documentation-standards/#2-project-documentation">2. Project Documentation</a></li>
+<li><a href="/docs/documentation-standards/#contributing-to-documentation-standards">Contributing to Documentation Standards</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<p>This document outlines guidelines on how to document code, projects, and processes effectively. Clear and comprehensive documentation is crucial for the understanding and future maintenance of our projects.</p>
+<h2 id="1-code-documentation">1. Code Documentation</h2>
+<p>In <a href="/docs/code-conventions/">code-conventions.md</a> we have established code conventions. Additionally, code documentation should adhere to the following standards:</p>
+<ul>
+<li>
+<p><strong>Comments:</strong> Use comments sparingly and aim for self-explanatory code. Only include comments for complex algorithms or to clarify non-obvious code sections.</p>
+</li>
+<li>
+<p><strong>Inline Documentation:</strong> Use inline documentation tools if applicable (e.g., JSDoc for JavaScript).</p>
+</li>
+</ul>
+<h2 id="2-project-documentation">2. Project Documentation</h2>
+<p>Proper project documentation is essential for onboarding and maintaining projects. Follow these standards:</p>
+<ul>
+<li>
+<p><strong>README.md:</strong> Each project MUST have a comprehensive README.md covering project overview, installation instructions, usage examples, and contribution guidelines.</p>
+</li>
+<li>
+<p><strong>Wiki:</strong> Consider using the repository&rsquo;s wiki for in-depth documentation, guides, and tutorials.</p>
+</li>
+<li>
+<p><strong>Architecture Diagrams:</strong> If applicable, include high-level architecture diagrams to aid understanding.</p>
+</li>
+</ul>
+<h2 id="contributing-to-documentation-standards">Contributing to Documentation Standards</h2>
+<p>If you have suggestions or improvements for these documentation standards, please open an issue or submit a pull request. Your contributions help maintain clear and effective documentation across our projects.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Getting Started Guide</title>
+      <link>//localhost:1313/docs/getting-started/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <author>github.com/btwkenji</author>
+      <guid>//localhost:1313/docs/getting-started/</guid>
+      <description>1. Setting Up Your Development Environment 2. Exploring Club Projects 3. Getting Help This guide will help you kickstart your journey with us, providing essential steps to set up your development environment, navigate our projects, and connect with the community.
+1. Setting Up Your Development Environment Before diving into our projects, ensure your development environment is properly configured. Here&amp;rsquo;s a general setup guide:
+Code Editor: Install a code editor of your choice, such as Neovim/Vim or Emacs or whatever you prefer :)</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<ul>
+<li><a href="/docs/getting-started/#1-setting-up-your-development-environment">1. Setting Up Your Development Environment</a></li>
+<li><a href="/docs/getting-started/#2-exploring-club-projects">2. Exploring Club Projects</a></li>
+<li><a href="/docs/getting-started/#3-getting-help">3. Getting Help</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<p>This guide will help you kickstart your journey with us, providing essential steps to set up your development environment, navigate our projects, and connect with the community.</p>
+<h2 id="1-setting-up-your-development-environment">1. Setting Up Your Development Environment</h2>
+<p>Before diving into our projects, ensure your development environment is properly configured. Here&rsquo;s a general setup guide:</p>
+<ul>
+<li>
+<p><strong>Code Editor:</strong> Install a code editor of your choice, such as Neovim/Vim or Emacs or whatever you prefer :)</p>
+</li>
+<li>
+<p><strong>Version Control:</strong> Set up a version control system, Git, on your machine.</p>
+</li>
+<li>
+<p><strong>Language Runtime/SDK:</strong> Install the necessary programming language runtime or SDK for the projects you&rsquo;ll be working on.</p>
+</li>
+<li>
+<p><strong>Project-Specific Setup:</strong> Review project-specific setup instructions in the README.md file of the respective projects.</p>
+</li>
+</ul>
+<h2 id="2-exploring-club-projects">2. Exploring Club Projects</h2>
+<p>Discover and contribute to exciting projects within our club by following these steps:</p>
+<ul>
+<li>
+<p><strong>GitHub Repository:</strong> Explore our club&rsquo;s GitHub repository to discover a variety of ongoing projects.</p>
+</li>
+<li>
+<p><strong>Fork and Clone:</strong> Select a project of interest, fork the repository, clone it to your local machine, and follow the setup instructions provided in the README.md file.</p>
+</li>
+</ul>
+<h2 id="3-getting-help">3. Getting Help</h2>
+<p>If you ever need assistance, don&rsquo;t hesitate to reach out. Here are ways you can get help:</p>
+<ul>
+<li>
+<p><strong>Community Channels:</strong> Join relevant channels on our communication platform to engage with other members and seek assistance.</p>
+</li>
+<li>
+<p><strong>GitHub Issues:</strong> Open issues directly on the project&rsquo;s GitHub repository to ask project-specific questions or report any issues you encounter.</p>
+</li>
+<li>
+<p><strong>Club Events:</strong> Attend club meetings or events to connect with fellow members and mentors, gaining valuable insights and support.</p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Project Guidelines</title>
+      <link>//localhost:1313/docs/project-guidelines/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <author>github.com/btwkenji</author>
+      <guid>//localhost:1313/docs/project-guidelines/</guid>
+      <description>1. Project Structure 2. Version Control 3. Collaboration Contributing to Project Guidelines This document outlines the guidelines and processes to be followed when initiating, managing, and contributing to projects within the club.
+1. Project Structure Maintaining a consistent project structure helps organize code and assets efficiently. Follow these guidelines when structuring your projects:
+Root Directory: Place project-specific files (e.g., README.md, license) in the root directory.
+Source Code: Organize source code into a clear directory structure (e.</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<ul>
+<li><a href="/docs/project-guidelines/#1-project-structure">1. Project Structure</a></li>
+<li><a href="/docs/project-guidelines/#2-version-control">2. Version Control</a></li>
+<li><a href="/docs/project-guidelines/#3-collaboration">3. Collaboration</a></li>
+<li><a href="/docs/project-guidelines/#contributing-to-project-guidelines">Contributing to Project Guidelines</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<p>This document outlines the guidelines and processes to be followed when initiating, managing, and contributing to projects within the club.</p>
+<h2 id="1-project-structure">1. Project Structure</h2>
+<p>Maintaining a consistent project structure helps organize code and assets efficiently. Follow these guidelines when structuring your projects:</p>
+<ul>
+<li>
+<p><strong>Root Directory:</strong> Place project-specific files (e.g., README.md, license) in the root directory.</p>
+</li>
+<li>
+<p><strong>Source Code:</strong> Organize source code into a clear directory structure (e.g., <code>main.rs, handlers/, db/</code>).</p>
+</li>
+<li>
+<p><strong>Documentation:</strong> If you will have documentation - include it in a <code>docs/</code> directory for project documentation.</p>
+</li>
+</ul>
+<h2 id="2-version-control">2. Version Control</h2>
+<p>Effective version control is crucial for collaboration and tracking changes. Follow these version control guidelines:</p>
+<ul>
+<li>
+<p><strong>Branching:</strong> Use feature branches for new features and bug fixes.</p>
+</li>
+<li>
+<p><strong>Commit Messages:</strong> Write clear and concise commit messages.</p>
+</li>
+<li>
+<p><strong>Pull Requests:</strong> Create pull requests for code review before merging into the main branch.</p>
+</li>
+<li>
+<p><strong>Version Tags:</strong> Tag releases with version numbers for easy reference.</p>
+</li>
+</ul>
+<h2 id="3-collaboration">3. Collaboration</h2>
+<p>Collaboration is key to successful project development. Follow these collaboration guidelines:</p>
+<ul>
+<li>
+<p><strong>Communication:</strong> Use project communication channels for discussions.</p>
+</li>
+<li>
+<p><strong>Issues:</strong> Create and track tasks using GitHub Issues.</p>
+</li>
+<li>
+<p><strong>Code Reviews:</strong> Conduct thorough code reviews for each pull request.</p>
+</li>
+</ul>
+<h2 id="contributing-to-project-guidelines">Contributing to Project Guidelines</h2>
+<p>If you have suggestions or improvements for these project guidelines, please open an issue or submit a pull request. Your feedback is valuable in ensuring the success of our projects.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
