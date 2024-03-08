@@ -24,7 +24,7 @@ enableRobotsTXT = true
 [[menu.main]]
   name = "&email. "
   weight = 7
-  url = "mailto:btwdesu@gmail.com"
+  url = "mailto:im@kenjitheman.dev"
 
 [author]
   name = "github.com/kenjitheman"
@@ -52,6 +52,6 @@ enableRobotsTXT = true
   hideUntranslated = false
   generateSocialCard = true
   [social]
-    email = "btwdesu@gmail.com"
+    email = "im@kenjitheman.dev"
     github = "kenjitheman"
     telegram = "@kenjitheman"
