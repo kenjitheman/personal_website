@@ -11,7 +11,7 @@ enableRobotsTXT = true
   weight = 3
 [[menu.main]]
   name = "&twitter. "
-  url = "https://twitter.com/kenjitheman_"
+  url = "https://twitter.com/plastiey"
   weight = 4
 [[menu.main]]
   name = "&telegram. "
@@ -22,9 +22,17 @@ enableRobotsTXT = true
   weight = 6
   url = "https://www.linkedin.com/in/kenjitheman/"
 [[menu.main]]
-  name = "&email. "
+  name = "&myanimelist. "
+  url = "https://myanimelist.net/profile/plastiey"
   weight = 7
-  url = "mailto:btwdesu@gmail.com"
+[[menu.main]]
+  name = "&IG. "
+  url = "https://instagram.com/plastiey"
+  weight = 8
+[[menu.main]]
+  name = "&email. "
+  weight = 9
+  url = "mailto:im@kenjitheman.dev"
 
 [author]
   name = "github.com/kenjitheman"
@@ -52,6 +60,6 @@ enableRobotsTXT = true
   hideUntranslated = false
   generateSocialCard = true
   [social]
-    email = "btwdesu@gmail.com"
+    email = "im@kenjitheman.dev"
     github = "kenjitheman"
     telegram = "@kenjitheman"

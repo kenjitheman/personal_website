@@ -19,5 +19,8 @@ weight: 8
 ## TRX
 > TTP5DX9gdy1ihBphuSF9nGy5pKzEvD7nkT
 
+## Ko-fi
+> [ko-fi.com/kenjitheman](https://ko-fi.com/kenjitheman)
+
 ## PayPal
 > [btwdesu@gmail.com](https://www.paypal.com/myaccount/transfer/homepage)
