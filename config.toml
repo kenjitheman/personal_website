@@ -11,7 +11,7 @@ enableRobotsTXT = true
   weight = 3
 [[menu.main]]
   name = "&twitter. "
-  url = "https://twitter.com/kenjith3man"
+  url = "https://twitter.com/kenjitheman_"
   weight = 4
 [[menu.main]]
   name = "&telegram. "
@@ -24,7 +24,7 @@ enableRobotsTXT = true
 [[menu.main]]
   name = "&email. "
   weight = 7
-  url = "mailto:im@kenjitheman.dev"
+  url = "mailto:btwdesu@gmail.com"
 
 [author]
   name = "github.com/kenjitheman"
@@ -52,6 +52,6 @@ enableRobotsTXT = true
   hideUntranslated = false
   generateSocialCard = true
   [social]
-    email = "im@kenjitheman.dev"
+    email = "btwdesu@gmail.com"
     github = "kenjitheman"
     telegram = "@kenjitheman"
